@@ -16,18 +16,18 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <PropertyGrid/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import PropertyGrid from './components/PropertyGrid';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    PropertyGrid,
   },
   data: () => ({
     //
